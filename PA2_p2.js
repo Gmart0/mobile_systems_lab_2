@@ -4,7 +4,7 @@ class CoordinateES{
 	degrees=0; minutes=0; seconds=0; direction='N'; 
 	axis=true;
 	constructor(degrees, minutes, seconds, axis){
-		//axis: true-вертикальна координата - широта, false - гориронтальна - довгота
+		//axis: true-вертикальна координата - широта, false - горизонтальна - довгота
 	const warningMsg = 'WARNING: invalid input values';
 	if(arguments.length===4){
 		if(axis){
